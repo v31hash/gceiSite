@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gceicana/public_html
+    - /bin/rsync -avz * $DEPLOYPATH
