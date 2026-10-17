@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gceicana/gceicanada.com/
+    - /bin/rsync -avz * $DEPLOYPATH
